@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网上书店 - 首页</title>
+    <link rel="stylesheet" href="lab2-2504-143-index.css">
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header class="header">
+        <div class="logo">
+            <h1>📚 网上书店</h1>
+        </div>
+        <nav class="top-nav">
+            <ul>
+                <li><a href=" " class="nav-link">首页</a ></li>
+                <li><a href="#" class="nav-link">新书推荐</a ></li>
+                <li><a href="#" class="nav-link">热销排行</a ></li>
+                <li><a href="#" class="nav-link">会员中心</a ></li>
+                <li><a href="#" class="nav-link">联系我们</a ></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 主体内容区 -->
+    <main class="main-container">
+        <!-- 左侧导航栏 -->
+        <aside class="left-sidebar">
+            <h3>图书分类</h3>
+            <ul class="category-list">
+                <li><a href="#">文学小说</a ></li>
+                <li><a href="#">历史传记</a ></li>
+                <li><a href="#">科学技术</a ></li>
+                <li><a href="#">经济管理</a ></li>
+                <li><a href="#">艺术设计</a ></li>
+                <li><a href="#">儿童读物</a ></li>
+                <li><a href="#">外语学习</a ></li>
+                <li><a href="#">计算机编程</a ></li>
+            </ul>
+        </aside>
+
+        <!-- 中间内容区 -->
+        <section class="content-main">
+            <!-- 图书展示区 -->
+            <div class="book-showcase">
+                <h2>精选好书</h2>
+                <div class="book-grid">
+                    <div class="book-item hover-container">
+                        <img src="book1.jpg" alt="马斯克重回太空" class="book-image">
+                        <div class="hover-overlay">
+                            <p class="hover-text">点击查看详情</p >
+                        </div>
+                        <h4>马斯克重回太空</h4>
+                        <p class="price">¥45.00</p >
+                    </div>
+                    
+                    <div class="book-item">
+                        <img src="book2.jpg" alt="中文计算机" class="book-image">
+                        <h4>中文计算机</h4>
+                        <p class="price">¥89.00</p >
+                    </div>
+                    
+                    <div class="book-item">
+                        <img src="book3.jpg" alt="我们需要口袋" class="book-image">
+                        <h4>我们需要口袋</h4>
+                        <p class="price">¥68.00</p >
+                    </div>
+                    
+                   
+                </div>
+            </div>
+
+            <!-- 热门推荐 -->
+            <div class="hot-recommend">
+                <h2>热门推荐</h2>
+                <div class="recommend-grid">
+                    <div class="recommend-item">
+                        
+                        <h4>人工智能入门</h4>
+                        <p class="price">¥78.00</p >
+                    </div>
+                    <div class="recommend-item">
+                        
+                        <h4>机器学习实战</h4>
+                        <p class="price">¥95.00</p >
+                    </div>
+                    <div class="recommend-item">
+                       
+                        <h4>深度学习原理</h4>
+                        <p class="price">¥128.00</p >
+                    </div>
+                </div>
+            </div>
+
+            <!-- 新书上市（Table布局） -->
+            <div class="new-books">
+                <h2>新书上市</h2>
+                <table class="books-table">
+                    <thead>
+                        <tr>
+                            <th>封面</th>
+                            <th>书名</th>
+                            <th>作者</th>
+                            <th>价格</th>
+                            <th>出版日期</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            
+                            <td>Web前端开发实战</td>
+                            <td>张三</td>
+                            <td>¥65.00</td>
+                            <td>2024-01-15</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>Python编程指南</td>
+                            <td>李四</td>
+                            <td>¥72.00</td>
+                            <td>2024-01-20</td>
+                        </tr>
+                        <tr>
+                            
+                            <td>数据结构与算法</td>
+                            <td>王五</td>
+                            <td>¥88.00</td>
+                            <td>2024-01-25</td>
+                        </tr>
+                        <tr>
+                           
+                            <td>云计算技术</td>
+                            <td>赵六</td>
+                            <td>¥92.00</td>
+                            <td>2024-02-01</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- 右侧广告栏 -->
+        <aside class="right-sidebar">
+            <div class="promotion-box">
+                <h3>限时优惠</h3>
+                <p>全场图书满200减50</p >
+                <button class="promo-btn">立即购买</button>
+            </div>
+            
+            <div class="promotion-box">
+                <h3>会员专享</h3>
+                <p>注册会员享受8折优惠</p >
+                <button class="promo-btn">免费注册</button>
+            </div>
+            
+            <div class="promotion-box">
+                <h3>新品预告</h3>
+                <p>下周上架：AI编程实战</p >
+                <button class="promo-btn">预约购买</button>
+            </div>
+        </aside>
+    </main>
+
+    <!-- 回到顶部按钮（固定定位） -->
+    <div class="back-to-top">
+        <a href="#top" class="scroll-link">↑</a >
+    </div>
+</body>
+</html>
